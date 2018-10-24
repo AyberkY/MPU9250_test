@@ -1,3 +1,14 @@
+/* MPU9250 Basic Example Code
+ by: Ayberk Yaraneri
+
+ Hardware setup:
+ MPU9250 Breakout -------- Arduino
+ VDD ----------------------- 5V
+ SDA ----------------------- A4
+ SCL ----------------------- A5
+ GND ----------------------- GND
+ */
+
 #include "MPU9250.h"
 
 int ledPin = 13;
